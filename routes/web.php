@@ -125,3 +125,4 @@ Route::post('/weixin/pay/notice','Weixin\PayController@notice');     //微信支
 
 //++1
 Route::get('/Tao/test','TaoController@test');     //微信支付测试
+Route::get('/Photo/list','PhotoController@lists');     //微信支付测试
